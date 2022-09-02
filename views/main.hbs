@@ -1,0 +1,16 @@
+{{#each posts}}
+    <div class='post'>
+        <div class="top">{{this.dataValues.title}} <span>Posted by {{this.dataValues.user.dataValues.username}} on {{this.dataValues.dateCreated}}</span></div>
+        <p>{{this.dataValues.contents}}</p>
+        <button onclick="comment({{this.dataValues.id}})">Comment</button>
+        <div class="comments">
+            <h3>Comments</h3>
+            {{#each this.dataValues.comments}}
+                <div class='comment'>
+                <div class='top'><span>Posted by {{this.dataValues.user.dataValues.username}} on {{this.dataValues.dateCreated}}</span></div>
+                <p>{{this.dataValues.contents}}</p>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+{{/each}}

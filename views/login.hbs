@@ -1,0 +1,15 @@
+<form class='form login' onsubmit='return validateForm(this)' action="/login" method='get'>
+    <h1>Log In</h1>
+    <p>Username</p>
+    <input type="text" name="username" required>
+    <p>Password</p>
+    <input type="password" name="password" required>
+    <br>
+    <button>Log In</button>
+    <br>
+    {{#if error}}
+        <p class='error'>{{error}}</p>
+    {{/if}}
+    <br>
+    <a href="/registerPage">Register</a>
+</form>

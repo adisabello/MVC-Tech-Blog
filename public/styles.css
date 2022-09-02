@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+}
+header ul li{
+    display: inline-block;
+    margin: 10px;
+}
+header ul li a,
+header ul li span{
+    color: aquamarine;
+    text-decoration: none;
+    cursor: pointer;
+}
+header h1{
+    background-color: aquamarine;
+    box-shadow: 1px 1px gray;
+    border-radius: 5px;
+    padding: 4px;
+    display: inline-block;
+    margin: 10px;
+}
+body{
+    background-color: aquamarine;
+    width: 100%;
+}
+.container{
+    width: 70%;
+    margin: 20px auto;
+}
+table th{
+    text-align: left;
+}
+table{
+    width: 70%;
+    margin: 10px auto;
+}
+.post{
+    width: 100%;
+    border: solid 2px black;
+    margin: 10px;
+}
+.post .top{
+    color: aquamarine;
+    background-color: black;
+    padding: 5px;
+}
+.post button{
+    margin: 5px;
+    padding: 4px;
+}
+.post p{
+    margin: 5px;
+}
+.post .comments{
+    width: 90%;
+    margin-left: 10%;
+}
+.post .comments .comment{
+    border: solid 1px black;
+}
+.form{
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    pad
+}
+.form input{
+    margin: 5px;
+    padding: 3px;
+}
+.form button{
+    padding: 4px;
+}
+.form h1{
+    color: aquamarine;
+    background-color: black;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
