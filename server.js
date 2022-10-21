@@ -35,7 +35,8 @@ app.use(session({
   }
 }));
 
-app.use(controllers);
+app.use(controllers); 
+
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
